@@ -13,9 +13,9 @@ import org.jsoup.nodes.Document;
 public class JDBCUtill {
 	
 	static final String name = "oracle.jdbc.driver.OracleDriver";
-	static final String url = "jdbc:oracle:thin:@localhost:1521:xe";
-	static final String userID = "son";
-	static final String userPW = "1234";
+	static final String url = "Oracle URL";
+	static final String userID = "ID";
+	static final String userPW = "PW";
 	
 	public static Connection connect() {
 		Connection conn = null;
